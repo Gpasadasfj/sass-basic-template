@@ -52,7 +52,7 @@ Esto te da acceso a todo lo definido en variables, mixins y functions.
 ---
 
 ## 📦 Importaciones modulares por carpeta
-Cada carpeta (base/, components/, layout/) tiene un archivo ***index.scss*** que importa internamente sus propios módulos.
+Cada carpeta (`base/, components/, layout/`) tiene un archivo ***index.scss*** que importa internamente sus propios módulos.
 
 Por ejemplo, dentro de components/index.scss:
 ```scss
