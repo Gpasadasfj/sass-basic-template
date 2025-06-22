@@ -15,6 +15,7 @@ Este template fue creado como base para proyectos SASS durante el Máster de Des
 
 ## 📁 Estructura del proyecto
 
+```plaintext
 sass/
 │
 ├── abstract/
@@ -36,10 +37,11 @@ sass/
 │   └── _index.scss
 │
 └── style.scss
+```
 
 ---
 
-🧩 ¿Cómo usar variables, funciones y mixins?
+## 🧩 ¿Cómo usar variables, funciones y mixins?
 Para usar las variables, funciones o mixins dentro de cualquier archivo .scss, simplemente añade esta línea al inicio del archivo:
 
 ```scss
@@ -49,7 +51,7 @@ Esto te da acceso a todo lo definido en variables, mixins y functions.
 
 ---
 
-📦 Importaciones modulares por carpeta
+## 📦 Importaciones modulares por carpeta
 Cada carpeta (base/, components/, layout/) tiene un archivo ***index.scss*** que importa internamente sus propios módulos.
 
 Por ejemplo, dentro de components/index.scss:
@@ -67,7 +69,7 @@ Así mantienes todo modular, organizado y limpio, sin repetir múltiples @use in
 
 ---
 
-🚀 ¿Cómo descargar y usar este repositorio?
+## 🚀 ¿Cómo descargar y usar este repositorio?
 Clona el repositorio en tu máquina local:
 ```scss
 git clone git@github.com:Gpasadasfj/sass-basic-template.git
@@ -89,13 +91,13 @@ sass sass/main.scss css/style.css
 ```
 ***Requiere tener instalado SASS.***
 
-📌 Recomendaciones
-No modifiques directamente **abstract/_index.scss**; solo se encarga de redirigir a los demás archivos.
+## 📌 Recomendaciones
+No modifiques directamente `abstract/_index.scss`; solo se encarga de redirigir a los demás archivos.
 
-Si creas un nuevo archivo en cualquier carpeta, recuerda importarlo en el **index.scss** correspondiente.
+Si creas un nuevo archivo en cualquier carpeta, recuerda importarlo en el `index.scss` correspondiente.
 
-Usa nombres de archivo en minúsculas y con guion bajo (_nombre.scss) para mantener la convención.
+Usa nombres de archivo en minúsculas y con guion bajo (`_nombre.scss`) para mantener la convención.
 
-🙌 Colaboración
+### 🙌 Colaboración
 Este template es totalmente libre. Si quieres compartirlo, modificarlo o ampliarlo con tus propios módulos, adelante. Si encuentras una mejora o sugerencia, puedes abrir un pull request o un issue en GitHub.
 
